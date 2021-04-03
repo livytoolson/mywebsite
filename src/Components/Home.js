@@ -1,10 +1,10 @@
-import { React } from 'react';
+import React from 'react';
 
 import Header from './Header';
 import Skills from './Skills';
 import Footer from './Footer';
 
-const Home = () => {
+export const Home = () => {
     return (
         <div>
             <Header/>
@@ -13,5 +13,3 @@ const Home = () => {
         </div>
     );
 };
-
-export default Home;

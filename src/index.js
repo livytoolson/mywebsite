@@ -8,8 +8,8 @@ import {
 } from 'react-router-dom';
 
 // Components
-import Home from '../src/Components/Home';
-import AboutMe  from '../src/Components/AboutMe';
+import { Home } from '../src/components/Home';
+import { AboutMe }  from '../src/components/AboutMe';
 
 // Styles
 import './index.css';
